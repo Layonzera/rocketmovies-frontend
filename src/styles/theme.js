@@ -1,0 +1,20 @@
+export default {
+  COLORS: {
+    BG_TAG: '#312E38',
+    BG_COLOR: '#1C1B1E',
+    BG_CARD: 'rgba(255, 133, 155, 0.05)',
+    BG_INPUT: '#262529',
+    BG_MARK: '#0D0C0F',
+
+    PINK: '#FF859B',
+    TEXT_TAG: '#E5E5E5',
+    HEADER_DESC_COLOR: '#F4EDE8',
+    TEXT_COLOR_CARD: '#999591',
+    PLACEHOLDER: '#948F99',
+    TEXT_BUTTON_COLOR: '#000000',
+    TEXT_COLOR_HEADER: '#FFFFFF',
+    WELCOME_TEXT: '#CAC4CF',
+
+    BORDER_COLOR: '#3E3B47'
+  }
+}
