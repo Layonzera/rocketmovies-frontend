@@ -46,25 +46,32 @@ export const Container = styled.div`
         flex-direction: column;
         align-items: flex-end;
 
-        strong {
+        button {
           color: ${({ theme }) => theme.COLORS.HEADER_DESC_COLOR};
           font-weight: 700;
           font-size: 1.4rem;
           line-height: 1.8rem;
+          background-color: transparent;
+          border: none;
         }
 
-        button {
+        button:nth-child(2) {
           color: ${({ theme }) => theme.COLORS.PLACEHOLDER};
           background-color: transparent;
           border: none;
         }
       }
 
-      img {
-        width: 6.4rem;
-        height: 6.4rem;
-        border-radius: 50%;
-        border: 2px solid ${({ theme }) => theme.COLORS.BORDER_COLOR};
+      button {
+        background-color: transparent;
+        border: none;
+
+        img {
+          width: 6.4rem;
+          height: 6.4rem;
+          border-radius: 50%;
+          border: 2px solid ${({ theme }) => theme.COLORS.BORDER_COLOR};
+        }
       }
     }
   }

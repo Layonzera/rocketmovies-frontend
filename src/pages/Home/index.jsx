@@ -9,11 +9,13 @@ export function Home() {
 
         <div>
           <div>
-            <strong>Adryann Layon</strong>
+            <button>Adryann Layon</button>
             <button>sair</button>
           </div>
 
-          <img src="https://www.github.com/Layonzera.png" alt="User's picture" />
+          <button>
+            <img src="https://www.github.com/Layonzera.png" alt="User's picture" />
+          </button>
         </div>
       </header>
       
