@@ -16,23 +16,13 @@ export const Container = styled.header`
     line-height: 3.2rem;
   }
 
-  input {
-    width: 100%;
-    background-color: ${({ theme }) => theme.COLORS.BG_INPUT};
-    border: none;
-    border-radius: 1rem;
-    height: 5.6rem;
-    padding: 1.9rem 2.4rem;
-    color: ${({ theme }) => theme.COLORS.PLACEHOLDER};
-  }
-
   div {
     display: flex;
     gap: 0.8rem;
     align-items: center;
-    width: 19.8rem;
 
     div {
+      width: 14rem;
       display: flex;
       flex-direction: column;
       align-items: flex-end;
