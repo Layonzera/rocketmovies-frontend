@@ -38,18 +38,6 @@ export const Content = styled.div`
       flex-direction: column;
       gap: 2.4rem;
 
-      button {
-        display: flex;
-        align-items: center;
-        gap: 0.8rem;
-        background-color: transparent;
-        border: none;
-        text-align: left;
-        color: ${({ theme }) => theme.COLORS.PINK};
-        line-height: 2.1rem;
-        font-weight: 400;
-      }
-
       h2 {
         width: 100%;
         display: flex;
