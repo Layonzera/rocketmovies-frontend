@@ -4,6 +4,7 @@ import { HiOutlineClock } from 'react-icons/hi'
 import { Rating } from '../../components/Rating'
 import { Header } from '../../components/Header'
 import { Tag } from '../../components/Tag'
+import { ButtonText } from '../../components/ButtonText'
 
 export function MoviePreview() {
   return (
@@ -13,7 +14,7 @@ export function MoviePreview() {
       <Content>
         <main>
           <div>
-            <button><FiArrowLeft />Voltar</button>
+            <ButtonText title="Voltar" />
             
             <h2>Interestellar <Rating grade={4} /> </h2>
 
