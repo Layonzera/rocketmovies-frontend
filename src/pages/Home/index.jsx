@@ -2,25 +2,12 @@ import { Container, Content } from './styles'
 import { BiPlus } from 'react-icons/bi'
 import { Rating } from '../../components/Rating'
 import { Tag } from '../../components/Tag'
+import { Header } from '../../components/Header'
 
 export function Home() {
   return (
     <Container>
-      <header>
-        <h1>RocketMovies</h1>
-        <input type="text" placeholder='Pesquisar pelo título' />
-
-        <div>
-          <div>
-            <button>Adryann Layon</button>
-            <button>sair</button>
-          </div>
-
-          <button>
-            <img src="https://www.github.com/Layonzera.png" alt="User's picture" />
-          </button>
-        </div>
-      </header>
+      <Header />
       
       <Content>
         <div>
