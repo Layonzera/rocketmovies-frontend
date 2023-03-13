@@ -11,4 +11,8 @@ export const Container = styled.button`
   font-weight: 400;
   border: none;
   width: fit-content;
+
+  svg {
+    color: ${({ theme }) => theme.COLORS.PINK};
+  }
 `
