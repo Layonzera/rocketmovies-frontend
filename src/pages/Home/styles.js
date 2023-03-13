@@ -40,6 +40,10 @@ export const Content = styled.div`
       gap: 0.8rem;
       line-height: 2.1rem;
       font-feature-settings: 'liga' off;
+
+      svg {
+        color: #000;
+      }
     }
   }
 
