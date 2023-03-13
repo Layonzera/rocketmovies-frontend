@@ -8,6 +8,7 @@ export const Container = styled.button`
   border-radius: 0.8rem;
   height: 4.8rem;
   padding: 1.6rem 3.2rem;
+  margin: 1.6rem 0;
   display: flex;
   align-items: center;
   justify-content: center;

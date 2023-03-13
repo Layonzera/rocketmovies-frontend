@@ -6,6 +6,7 @@ export const Container = styled.div`
   align-items: center;
   background-color: ${({ theme }) => theme.COLORS.BG_INPUT};
   border-radius: 1rem;
+  margin-bottom: 0.8rem;
 
   > input {
     width: 100%;
