@@ -4,12 +4,13 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+  background-color: ${({ theme }) => theme.COLORS.BG_INPUT};
+  border-radius: 1rem;
 
   > input {
     width: 100%;
-    background-color: ${({ theme }) => theme.COLORS.BG_INPUT};
+    background-color: transparent;
     border: none;
-    border-radius: 1rem;
     height: 5.6rem;
     padding: 1.9rem 2.4rem;
     color: ${({ theme }) => theme.COLORS.HEADER_DESC_COLOR};
@@ -17,9 +18,9 @@ export const Container = styled.div`
     &:placeholder {
       color: ${({ theme }) => theme.COLORS.PLACEHOLDER};
     }
+  }
 
-    > svg {
-      margin-left: 1.6rem;
-    }
+  > svg {
+    margin-left: 1.6rem;
   }
 `
