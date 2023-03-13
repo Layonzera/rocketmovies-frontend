@@ -3,6 +3,7 @@ import { BiPlus } from 'react-icons/bi'
 import { Rating } from '../../components/Rating'
 import { Tag } from '../../components/Tag'
 import { Header } from '../../components/Header'
+import { Link } from 'react-router-dom'
 
 export function Home() {
   return (
@@ -12,7 +13,9 @@ export function Home() {
       <Content>
         <div>
           <h2>Meus filmes</h2>
-          <button><BiPlus />Adicionar filme</button>
+          <Link to="/createmovie">
+            <button><BiPlus />Adicionar filme</button>
+          </Link>
         </div>
 
         <main>

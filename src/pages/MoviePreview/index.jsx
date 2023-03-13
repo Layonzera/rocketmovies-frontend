@@ -5,6 +5,7 @@ import { Rating } from '../../components/Rating'
 import { Header } from '../../components/Header'
 import { Tag } from '../../components/Tag'
 import { ButtonText } from '../../components/ButtonText'
+import { Link } from 'react-router-dom'
 
 export function MoviePreview() {
   return (
@@ -14,7 +15,9 @@ export function MoviePreview() {
       <Content>
         <main>
           <div>
-            <ButtonText title="Voltar" />
+            <Link to="/">
+              <ButtonText title="Voltar" />
+            </Link>
             
             <h2>Interestellar <Rating grade={4} /> </h2>
 

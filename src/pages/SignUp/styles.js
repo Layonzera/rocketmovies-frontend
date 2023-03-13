@@ -42,6 +42,19 @@ export const Form = styled.form`
     margin: 4.2rem auto 0;
     line-height: 2.1rem;
   }
+
+  > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 4.2rem;
+    color: ${({ theme }) => theme.COLORS.PINK};
+
+    svg {
+      color: ${({ theme }) => theme.COLORS.PINK};
+    }
+  }
 `
 
 export const Background = styled.div`

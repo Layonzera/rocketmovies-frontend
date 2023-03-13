@@ -5,6 +5,8 @@ import { Input } from '../../components/Input'
 import { Textarea } from '../../components/Textarea'
 import { MovieItem } from '../../components/MovieItem'
 import { Button } from '../../components/Button'
+import { Link } from 'react-router-dom'
+
 
 export function CreateMovie() {
   return (
@@ -13,7 +15,9 @@ export function CreateMovie() {
 
       <Content>
         <main>
-          <ButtonText title="Voltar" />
+          <Link to="/">
+            <ButtonText title="Voltar" />
+          </Link>
 
           <div>
             <h2>Novo Filme</h2>
