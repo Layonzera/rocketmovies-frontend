@@ -22,8 +22,8 @@ export function Profile() {
 
         <Input placeholder="Nome" type="text" icon={FiUser} />
         <Input placeholder="E-mail" type="text" icon={FiMail} />
-        <Input placeholder="Senha atual" type="text" icon={FiLock} />
-        <Input placeholder="Nova senha" type="text" icon={FiLock} />
+        <Input placeholder="Senha atual" type="password" icon={FiLock} />
+        <Input placeholder="Nova senha" type="password" icon={FiLock} />
 
         <Button title="Salvar" />
       </Form>
